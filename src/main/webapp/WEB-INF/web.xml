@@ -1,0 +1,80 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>BookDao</servlet-name>
+  	<display-name>BookDao</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.BookDao</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>editController</servlet-name>
+  	<display-name>editController</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.editController</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>viewController</servlet-name>
+  	<display-name>viewController</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.viewController</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>addController</servlet-name>
+  	<display-name>addController</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.addController</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>LoginController</servlet-name>
+  	<display-name>LoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>deleteController</servlet-name>
+  	<display-name>deleteController</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.deleteController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>registerController</servlet-name>
+  	<display-name>registerController</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.registerController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>BookDao</servlet-name>
+  	<url-pattern>/BookDao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>editController</servlet-name>
+  	<url-pattern>/editController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>addController</servlet-name>
+  	<url-pattern>/addController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>viewController</servlet-name>
+  	<url-pattern>/viewController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>deleteController</servlet-name>
+  	<url-pattern>/deleteController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>registerController</servlet-name>
+  	<url-pattern>/registerController</url-pattern>
+  </servlet-mapping>
+</web-app>
